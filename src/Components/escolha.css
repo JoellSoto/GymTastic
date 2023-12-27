@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+}
+
+.scroll {
+    overflow-y: scroll;
+}
+
+.container {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: white;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.form-control {
+    height: 25px;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+.form-control2 {
+    font-size: 14pt;
+    height: 20px;
+    width: 55%;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+}
+
+.form-control2:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+.form-control3 {
+    font-size: 14px;
+    height: 20px;
+    width: 30px;
+    border: none;
+    border-radius: 0;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+}
+
+.form-control3:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.text-muted {
+    font-size: 10pt;
+}
+
+.textmuted {
+    color: #6c757d;
+    font-size: 13pt;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.btn.btn-primary {
+    width: 80vw;
+    height: 55px;
+    border-radius: 0;
+    padding: 13px 3%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: black;
+    border: none;
+    font-weight: 600;
+}
+
+.btn.btn-primary:hover .fas {
+    transform: translateX(10px);
+    transition: transform 0.5s ease
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+::placeholder {
+    font-size: 12pt;
+}
+
+.ps-30 {
+    padding-left: 15%;
+}
+
+.h4 {
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 800 !important;
+}
+
+.textmuted,
+h5,
+.text-muted {
+    font-family: 'Poppins', sans-serif;
+}

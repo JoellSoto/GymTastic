@@ -1,0 +1,7 @@
+{
+  "name": "gymtastic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
